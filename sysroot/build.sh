@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # 1. Path to your i686 cross-compiler
-PREFIX="/home/maxine/opt/cross/bin"
+PREFIX="/home/"user"/opt/cross/bin"
 CC="$PREFIX/i686-elf-gcc"
 # We use the cross-compiler for the app too!
 OBJCOPY="$PREFIX/i686-elf-objcopy"
